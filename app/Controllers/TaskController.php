@@ -7,7 +7,6 @@ use App\Services\Task\ChangeTaskStatus;
 use App\Services\Task\CreateTaskService;
 use App\Services\Task\TaskValidation;
 use App\Services\Task\UpdateTaskService;
-use GuzzleHttp\Client;
 use Illuminate\Support\Arr;
 
 class TaskController extends Controller
